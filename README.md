@@ -25,7 +25,9 @@ This will cover classification problem by using Scikit Learn Library
      from sklearn import svm
 
 This is my additional package (support vector machine) to classify images
-The reason why I used this algorithm is svm can be universaliy applied at any datasets (even at images!)
+
+The reason why I used this algorithm is svm can be universally applied at any datasets (even at images!)
+
 In addition, It can be used at high-dimensional imagne dateset. So I chose this algorithm :)
 
      olivetti_faces = sklearn.datasets.fetch_olivetti_faces(random_state=0,)
@@ -43,8 +45,8 @@ In addition, It can be used at high-dimensional imagne dateset. So I chose this 
      X_train, X_test, y_train, y_test = sklearn.model_selection.train_test_split(X, y, test_size=0.3, random_state=0)
      
 This part is a process to load data points
-This dataset contains a set of face images`_ taken between April 1992 and 
-April 1994 at AT&T Laboratories Cambridge.
+
+This dataset contains a set of face images`_ taken between April 1992 and April 1994 at AT&T Laboratories Cambridge.
 
 **Data Set Characteristics:**
 
