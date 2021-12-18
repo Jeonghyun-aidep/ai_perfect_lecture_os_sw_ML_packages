@@ -28,7 +28,7 @@ This is my additional package (support vector machine) to classify images
 
 The reason why I used this algorithm is svm can be universally applied at any datasets (even at images!)
 
-In addition, It can be used at high-dimensional imagne dateset. So I chose this algorithm :)
+In addition, It can be used at high-dimensional image dateset. So I chose this algorithm :)
 
      olivetti_faces = sklearn.datasets.fetch_olivetti_faces(random_state=0,)
      print(olivetti_faces['DESCR'])
